@@ -5,17 +5,28 @@ rgb(54, 106, 233)     azul           #366ae9
 
 :root{
     --verde: #04e9ae;
+    --verde-opacity: rgba(4, 233, 174, 0.8);
     --azul:  #366ae9;   
 }
 
-/* font-family: 'Poppins', sans-serif; */ 
-/* font-family: 'Quicksand', sans-serif; */
-
-@font-face {
-  font-family: avantgarde;
-  src: url('../_bibliotecas/font-awesome/Fontes/avantgarde-4.ttf') format('opentype');
+#logo{
+    width: 16.0vh;  
+    margin-left: -13px;
+    margin-top: -25px;
+    position: absolute;
+    border-bottom-style: solid;
+    border-color: var(--verde);
 }
 
 nav li{
     margin-left: 20px;
+}
+
+body {
+    background-color: var(--verde-opacity);
+}
+
+.nav-item{
+    margin-left: 5rem !important;
+    
 }
