@@ -9,24 +9,34 @@ rgb(54, 106, 233)     azul           #366ae9
     --azul:  #366ae9;   
 }
 
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, 0.28);    
+}
+
 #logo{
-    width: 16.0vh;  
+    width: 12.0vh;  
     margin-left: -13px;
     margin-top: -25px;
     position: absolute;
+    transition-duration: 1s;
+/*
     border-bottom-style: solid;
-    border-color: var(--verde);
+    border-color: var(--verde); 
+*/
 }
 
-nav li{
-    margin-left: 20px;
+#logo:hover{
+    transition-duration: 1s;
+    transform:  scale(1.1);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.28);
 }
+
 
 body {
     background-color: var(--verde-opacity);
 }
 
-.nav-item{
-    margin-left: 5rem !important;
-    
-}
